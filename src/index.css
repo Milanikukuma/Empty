@@ -1,0 +1,189 @@
+
+
+
+/* Navigation.css */
+.navigation {
+  position: fixed; /* Fix the navigation bar at the top of the viewport */
+  top: 0; /* Position it at the top */
+  width: 100%; /* Make it span the entire width */
+  z-index: 1000; /* Ensure it's above other content */
+  /* Add your other navigation bar styles here */
+  background-color: white;
+}
+
+
+
+.navigation .navbar-nav .nav-link {
+  color:grey;
+  font-weight: bold
+}
+
+.navigation .navbar-nav .nav-link:hover{
+  color:pink;
+}
+
+.navigation .navbar-brand {
+  color:pink;
+  font-weight: bold;
+}
+
+.navigation .navbar-brand:hover {
+  color:bisque;
+}
+
+
+.intro {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #555;
+}
+
+
+.title{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: grey;
+  padding: 50px
+}
+
+.about{
+  background-color:beige
+}
+
+.about-title{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: grey;
+  padding: 50px
+}
+
+.about-content{
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #555;
+}
+
+.container1{
+  background-color:beige;
+}
+
+.projects-title{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: grey;
+  padding: 50px
+}
+.projects{
+  color: black;
+}
+
+.projects-content{
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #555;
+}
+
+.footer-content {
+  height: 40px; /* Adjust this value to your desired footer height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+}
+
+.containerfooter {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.Container-project{
+  background-color:palevioletred;
+  width: 10%;
+
+}
+
+.circle-logo {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  border-radius: 50%; /* Create a circular shape */
+  margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+/* Home.css */
+
+/* Home.css */
+
+.container2 {
+  background-color: rgb(169, 88, 102);
+  width: 20%;
+  height: 80px; /* Set your desired height here */
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.project-container{
+  color:grey;
+  font-weight: bold
+ 
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0; /* Start from the left corner */
+  right: 0; /* Extend to the right corner */
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+ 
+}
+
+
+.footer-content {
+  height: 40px; /* Adjust this value to your desired footer height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  width: 100%; /* Ensure the footer spans the entire width */
+  position: fixed; /* Keep the footer fixed at the bottom */
+  bottom: 0; /* Position it at the bottom */
+  left: 0; /* Start at the left corner */
+  z-index: 999; /* Make sure the footer is above other content */
+  
+}
+
+
+
+.containerfooter {
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Adjust box shadow as needed */
+  max-width: 1200px;
+}
+
+
+.home {
+  min-height: 100vh; /* Minimum height to ensure content + footer exceed viewport height */
+}
+
+
